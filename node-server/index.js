@@ -4,7 +4,7 @@ const app = express();
 
 const root = './node-angular';
 
-app.use(express.static(publicweb));
+app.use(express.static(root));
 
 
 app.get('*', (req, res) => {
